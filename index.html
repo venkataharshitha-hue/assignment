@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>NAVBAR</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            gap: 10px;
+            padding: 10px;
+            background-color: aqua;
+        }
+        .logo{
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .nav-links{
+             display: flex;
+             list-style: none;
+            gap: 20px;
+        }
+        .nav-links ul{
+            color:red;
+            list-style-type: none;
+            display: flex;
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">MySite</div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/services.html">Services</a>
+                <ul><a href="/webdesign.html">Web Design</a></ul>
+                <ul><a href="/seo.html">SEO</a></ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
